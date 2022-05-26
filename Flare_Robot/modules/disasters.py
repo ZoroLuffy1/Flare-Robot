@@ -705,7 +705,7 @@ Group admins/group owners do not need these commands.
  ╠ `/gban <id> <reason>`*:* Gbans the user, works by reply too
  ╠ `/ungban`*:* Ungbans the user, same usage as gban
  ╚ `/gbanlist`*:* Outputs a list of gbanned users
-Visit @Freia_Support for more information.
+Visit @rukaxSuport for more information.
 """
 
 DEV_HANDLER = CommandHandler(("addpiro", "addheal"), addpiro)
