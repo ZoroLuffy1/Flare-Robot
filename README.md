@@ -1,6 +1,6 @@
-# Flare-Robot
+# Ruka-Robot
 ![Ruka Sarashina](https://telegra.ph/file/c48c88cc0f159a83a69ee.jpg)
-# Flare Arlgrande
+# Ruka Sarashina
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6141417ceaf84545bab6bd671503df51)](https://app.codacy.com/gh/Asta-vir/Flare-Robot?utm_source=github.com&utm_medium=referral&utm_content=Asta-vir/Flare-Robot&utm_campaign=Badge_Grade_Settings)  [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Asta-vir/Flare_Robot/graphs/commit-activity) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://perso.crans.org/besson/LICENSE.html) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com) [![Updates channel!](https://img.shields.io/badge/Join%20Channel-!-red)](https://t.me/Freia_Updates)
 
 
@@ -8,9 +8,9 @@ A modular Telegram Python bot running on python3 with a sqlalchemy database and 
 
 Can be found on telegram as [Flare](https://t.me/Flare_robot).
 
-The Support group can be reached out to at [Flare Support](https://t.me/Freia_Support), where you can ask for help about [Flare](https://t.me/Flare_Robot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [Ruka Support](https://t.me/rukaxSuport), where you can ask for help about [Flare](https://t.me/Flare_Robot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
-Owner bot [ASTA](https://t.me/Asta_Silva02) he leaved the telegram for a while he will be back soon.
+Owner bot [Kirito](https://t.me/asta_est) he leaved the telegram for a while he will be back soon.
 
 ## How to setup/deploy.
 
@@ -30,7 +30,7 @@ REMEMBER: Turn on worker dyno (Don't worry It's free :D) & Webhook
 Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.com/apps/(app-name)/settings and remove webhook and port.
 ```
 
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Asta-vir/Flare-Robot.git)
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ZoroLuffy1/Flare-Robot)
 
 </details>  
 <details>
