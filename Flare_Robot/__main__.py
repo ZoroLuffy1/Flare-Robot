@@ -74,9 +74,9 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-GROUP_START_IMG = "https://telegra.ph/file/2cd6f97e0cf04d63cabf4.mp4"
+GROUP_START_IMG = "https://telegra.ph/file/42317a74efd91cdf4dfeb.mp4"
 
-FLARE_PHOTO = "https://telegra.ph/file/2a171330f0ad1fc02465c.jpg"
+FLARE_PHOTO = "https://telegra.ph/file/135b22a53bd190a3cae6d.jpg"
 
 PM_START_TEXT = """
 ────「 {} 」────
@@ -85,11 +85,11 @@ PM_START_TEXT = """
 ➖➖➖➖➖➖➖➖➖➖➖
 • *Uptime:* `{}`
 ➖➖➖➖➖➖➖➖➖➖➖
-➛ Try The Help Buttons Below To Know My Abilities[.](https://telegra.ph/file/852e96d6c59f2ccad32df.jpg) ××
+➛ Try The Help Buttons Below To Know My Abilities[.](https://telegra.ph/file/135b22a53bd190a3cae6d.jpg) ××
 """
 
 HELP_STRINGS = """
-Hey there, I'm Flare Robot !
+Hey there, I'm Ruka Robot !
 To make me functional, make sure that i have enough rights in your group.
 Helpful commands:
 - /start: Starts me! You've probably already used this.
@@ -106,27 +106,27 @@ List of all the Modules:
 buttons = [
     [
                         InlineKeyboardButton(
-                            text=f"Add Flare To Your Group",
-                            url=f"https://telegram.dog/@{BOT_USERNAME}?startgroup=true")
+                            text=f"Add Ruka To Your Group",
+                            url=f"https://telegram.dog/@Ruka_SarashinaXRobot?startgroup=true")
                     ],
                    [
                        InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
-                       InlineKeyboardButton(text="❔ Chit Chat", url="https://t.me/OtaKu_Gang1"),
+                       InlineKeyboardButton(text="⚙️ Channel", url="https://t.me/AniSticker0"),
                        InlineKeyboardButton(text="[► Inline ◄]", switch_inline_query_current_chat=""),
                      ],
                     [                  
                        InlineKeyboardButton(
                              text="🚑 Support",
-                             url=f"https://telegram.dog/Freia_Support"),
+                             url=f"https://t.me/rukaxsuport"),
                        InlineKeyboardButton(
                              text="📢 Updates",
-                             url="https://t.me/Freia_Updates")
+                             url="https://t.me/rukaxupdate")
                      ], 
     ]
 
 
 
-DONATE_STRING = """Durov Is my Cousin By The Way.."""
+DONATE_STRING = """Boring Is my Cousin By The Way.."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -198,16 +198,16 @@ def test(update: Update, context: CallbackContext):
 @telethn.on(events.NewMessage(pattern="/check"))
 async def awake(event):
   ғʟᴀʀᴇ = event.sender.first_name
-  ғʟᴀʀᴇ = "**♡ I,m ғʟᴀʀᴇ ʀᴏʙᴏᴛ 愛** \n\n"
+  ғʟᴀʀᴇ = "**♡ I,m Ruka ʀᴏʙᴏᴛ 愛** \n\n"
   ғʟᴀʀᴇ += "**♡ I'm Working With sᴇxʏ Speed**\n\n"
-  ғʟᴀʀᴇ += "**♡ ғʟᴀʀᴇ: LATEST Version**\n\n"
-  ғʟᴀʀᴇ += "**♡ My Creator:** [ᴀsᴛᴀ](t.me/@{OWNER_USERNAME})\n\n"
-  ғʟᴀʀᴇ += "**♡ ᴀɴʏ ɪssᴜᴇs ᴄᴏɴᴛᴀᴄᴛ ʜᴇʀᴇ @Freia_Support **\n\n"
+  ғʟᴀʀᴇ += "**♡ Ruka: LATEST Version**\n\n"
+  ғʟᴀʀᴇ += "**♡ My Creator:** [kirito](t.me/@asta_est)\n\n"
+  ғʟᴀʀᴇ += "**♡ ᴀɴʏ ɪssᴜᴇs ᴄᴏɴᴛᴀᴄᴛ ʜᴇʀᴇ @rukaxSuport **\n\n"
   ғʟᴀʀᴇ += "**♡ ᴛʜᴀɴᴋ ʏᴏᴜ ғᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ 💘💘💘**\n\n"
   FLARE_BUTTON = [
       [
-          Button.url("🚑 Support", f"https://t.me/{SUPPORT_CHAT}"),
-          Button.url("📢 Updates", "https://t.me/Freia_Updates")
+          Button.url("🚑 Support", f"https://t.me/rukaxsuport"),
+          Button.url("📢 Updates", "https://t.me/rukaxupdate")
       ]
   ]
   await telethn.send_file(
@@ -274,11 +274,11 @@ def start(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="🚑 Support",
-                            url=f"https://telegram.dog/Freia_Support",
+                            url=f"https://telegram.dog/rukaxsuport",
                         ),
                         InlineKeyboardButton(
                             text="📢 Updates",
-                            url="https://t.me/Freia_Updates",
+                            url="https://t.me/rukaxupdate",
                         ),
                     ]
                 ]
@@ -656,7 +656,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[hey! I am back from OYO!!](https://telegra.ph/file/926039375cac9825e1e58.jpg)", parse_mode=ParseMode.MARKDOWN)
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[hey! I am back from OYO!!](https://telegra.ph/file/2306cd41036a10b6212ee.jpg)", parse_mode=ParseMode.MARKDOWN)
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!",
